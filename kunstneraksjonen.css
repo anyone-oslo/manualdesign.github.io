@@ -1,0 +1,74 @@
+#kunstneraksjonenBlackout {
+  background: #000;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #fff;
+  position: fixed;
+  z-index: 10000;
+  top: 50px;
+  bottom: 50px;
+  left: 50px;
+  right: 50px;
+  line-height: 26px;
+}
+
+#kunstneraksjonenBlackout .content {
+  position: absolute;
+  z-index: 10001;
+  top: 33%;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  padding: 20px;
+}
+
+#kunstneraksjonenBlackout .heading,
+#kunstneraksjonenBlackout .para,
+#kunstneraksjonenBlackout .link {
+  margin-bottom: 35px;
+}
+#kunstneraksjonenBlackout .heading {
+  font-size: 48px;
+  text-transform: uppercase;
+}
+#kunstneraksjonenBlackout .para {
+  font-size: 18px;
+}
+#kunstneraksjonenBlackout .link {
+  font-size: 14px;
+}
+
+#kunstneraksjonenBlackout a, #kunstneraksjonenBlackout a:visited {
+  color: #fff;
+  text-decoration: underline;
+}
+#kunstneraksjonenBlackout a:hover, #kunstneraksjonenBlackout a:active {
+  color: #aaa;
+}
+
+@media screen and (max-width: 600px) {
+  #kunstneraksjonenBlackout {
+    line-height: 20px;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+  }
+  #kunstneraksjonenBlackout .heading,
+  #kunstneraksjonenBlackout .para,
+  #kunstneraksjonenBlackout .link {
+    margin-bottom: 20px;
+  }
+  #kunstneraksjonenBlackout .content {
+    top: 50px;
+  }
+  #kunstneraksjonenBlackout .heading {
+    font-size: 18px;
+  }
+  #kunstneraksjonenBlackout .para {
+    font-size: 14px;
+  }
+  #kunstneraksjonenBlackout .link {
+    font-size: 12px;
+  }
+}
