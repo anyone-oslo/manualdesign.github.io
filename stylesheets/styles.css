@@ -149,6 +149,15 @@ img {
   border: 1px solid #ccc;
 }
 
+.fullsize-image {
+  max-width: 100%;
+}
+.fullsize-image img {
+  border: 0px;
+  width: 100%;
+  height: auto;
+}
+
 
 /* Code blocks */
 
