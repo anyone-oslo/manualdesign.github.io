@@ -3,8 +3,8 @@ function domReady(f){/in/.test(document.readyState)?setTimeout('domReady('+f+')'
 domReady(function(){
   var stylesheetUrl = "http://manualdesign.github.io/kunstneraksjonen.css";
 
-  var startAt = new Date(2013, 10, 19, 8, 00);
-  var endAt = new Date(2013, 10, 19, 23, 00);
+  var startAt = new Date(2013, 10, 19, 10, 00);
+  var endAt = new Date(2013, 10, 19, 15, 00);
   var now = new Date();
 
   if (!document.getElementById("kunstneraksjonenBlackout") && startAt <= now && endAt >= now) {
