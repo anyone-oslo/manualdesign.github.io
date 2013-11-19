@@ -14,7 +14,7 @@ domReady(function(){
     stylesheet.href = stylesheetUrl;
     document.getElementsByTagName("head")[0].appendChild(stylesheet);
     var container = document.createElement("div");
-    container.innerHTML = "<div class=\"content\"><div class=\"heading\">#kunstneraksjonen</div><div class=\"para\">Vi støtter den nasjonale aksjonen for norske kunstnere og kunstens fremtid.<br>Ikke benytt deg av kunst og kultur i dag!</div><div class=\"para link\"><a href=\"https://www.facebook.com/events/361313150671995\">Les mer og delta du også!</a></div></div>";
+    container.innerHTML = "<div class=\"content\"><div class=\"heading\">#kunstneraksjonen</div><div class=\"para\">Vi støtter den nasjonale aksjonen for norske kunstnere og kunstens fremtid.<br>Dekk til kunst i hele landet i dag!</div><div class=\"para link\"><a href=\"https://www.facebook.com/events/361313150671995\">Les mer og delta</a></div></div>";
     container.id = "kunstneraksjonenBlackout";
     document.body.appendChild(container);
   }
